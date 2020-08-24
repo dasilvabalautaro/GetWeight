@@ -30,7 +30,7 @@ int main()
         }
     }
     else {
-        jsonStructure->manageFile->WriteToFileLog("There is no DAT_VEHICULO.txt file and only the total is printed.");
+        jsonStructure->manageFile->WriteToFileLog("There is no DAT_VEHICULO.txt file and only the weight TOTAL is printed.");
         scale->ParseJSONToObject();
         scale->WriteFileOnlyTotal();
     }    
